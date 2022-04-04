@@ -34,7 +34,8 @@ export default function Home() {
       alert("something went wrong");
       return;
     }
-
+    
+    e.target.reset();
     alert("Token added sucessfully");
 
   
