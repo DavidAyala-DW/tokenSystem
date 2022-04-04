@@ -32,6 +32,7 @@ export default function Home() {
 
     if(status !== 201 || status>400){
       alert("something went wrong");
+      return;
     }
 
     alert("Token added sucessfully");
